@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+/*
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs
+*/
+:root{
+    font-size:62.5%;
+    font-family: var(--font-leaguespartan);
+    --font-leaguespartan: "League Spartan", serif;
+    --header-color:#4459E8;
+    --background-color:#E6E5F5;
+    --font-color:#4F4C4C;
+    --border-color:#7F90EA;
+    --input-color:#CACFE8;
+    --button-color:#7F90EA;
+}

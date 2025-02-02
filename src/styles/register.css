@@ -1,0 +1,61 @@
+body{
+    background-color: var(--background-color);
+    color:var(--font-color);
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-color);
+    border-radius:0% 0% 100% 100%;
+    padding: 2rem;
+}
+
+header img{
+    height: 12rem;
+    width: 9rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__title{
+    font-size: 4.5rem;
+    align-self: center;
+    margin:3rem;
+    
+}
+.container__lable{
+   font-size:2rem;
+   margin: 3rem 3rem 0rem 3rem ; 
+}
+
+.container__input{
+    background-color: var(--input-color);
+    border:4px solid var(--border-color);
+    border-radius: 18px;
+    padding:1.4rem;
+    margin: 0rem 3rem ;
+}
+
+.container__button{
+    background-color: var(--button-color);
+    font-size:2rem;
+    font-weight: bold;
+    color:var(--font-color);
+    font-family: var(--font-leaguespartan);
+    border:none;
+    border-radius:15px;
+    margin: 4rem 10rem  ; 
+    padding:2rem;
+}
+
+.container__button:hover{
+    background-color: var(--header-color);
+    color:white;
+}
+
+
